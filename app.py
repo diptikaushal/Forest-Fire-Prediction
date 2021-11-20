@@ -12,12 +12,11 @@ model = pickle.load(open('model.pkl', 'rb'))
 
 @app.route('/')
 def index():
-    return render_template("index.html")
-
-
-@app.route('/forest_fire.html')
-def hello_world():
     return render_template("forest_fire.html")
+
+# @app.route('/forest_fire.html')
+# def hello_world():
+#     return render_template("forest_fire.html")
 
 
 @app.route('/predict', methods=['POST', 'GET'])
@@ -32,7 +31,7 @@ def predict():
     if output > str(0.5):
         return render_template('forest_fire.html',
                                pred='Your Forest is in Danger.\nProbability of fire occuring is {}'.format(output),
-                               bhai="kuch karna hain iska ab?")
+                               bhai="Your Forest is not Safe, quick action is needed.")
     else:
         return render_template('forest_fire.html',
                                pred='Your Forest is safe.\n Probability of fire occuring is {}'.format(output),
