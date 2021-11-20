@@ -6,18 +6,9 @@ app = Flask(__name__)
 
 model = pickle.load(open('model.pkl', 'rb'))
 
-
-
-
-
 @app.route('/')
 def index():
     return render_template("forest_fire.html")
-
-# @app.route('/forest_fire.html')
-# def hello_world():
-#     return render_template("forest_fire.html")
-
 
 @app.route('/predict', methods=['POST', 'GET'])
 def predict():
@@ -36,7 +27,6 @@ def predict():
         return render_template('forest_fire.html',
                                pred='Your Forest is safe.\n Probability of fire occuring is {}'.format(output),
                                bhai="Your Forest is Safe for now")
-
 
 if __name__ == '__main__':
     app.run(debug=True)
