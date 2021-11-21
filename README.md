@@ -1,24 +1,22 @@
 # Forest Fire Predcition
 
-The forest fire is the burning of tropical, temperate and boreal forest either by natural fire or man-made fire and is related to land clearing and deforestation. Natural forest fire includes an unplanned burning of forest due to lightning, while human-induced forest fire results from the unauthorized burning practice of forests for attaining farmland. In spite of low commitment of boreal forest in worldwide biomass burning emission, there is 10-folds increase in the extent of boreal forest burning in recent year.
+The forest fire is the burning of forest either by natural fire or man-made fire and is related to land clearing and deforestation. Natural forest fire includes an unplanned burning of forest due to lightning, while human-induced forest fire results from the unauthorized burning practice of forests for attaining farmland. 
+Forest fires prediction combines weather factors, terrain, dryness of flammable items, types of flammable items, and ignition sources to analyze and predict the combustion risks of flammable items in the forest.
+I have implemented supervised learning, a machine learning model for training of the collected data.
 
-Forest fires prediction combines weather factors, terrain, dryness of flammable items, types of flammable items, and ignition sources to analyze and predict the combustion risks of flammable items in the forest. Forest fire prediction has developed rapidly in various countries in the world since its inception in the 1920s
+In this project the web app predicts the danger of a fire in the forest based on temperature,oxygen and humidity content. 
+You can find the deployed app at https://forest-fire-dipti101803601.herokuapp.com/
 
-### Technology Stack used in this project
+## Technology Stack used in this project
+Python,Logistic Regression ,Flask, HTML, CSS, Heroku
 
-<b>1. HTML</b>
+![](IO_Screenshots/1.JPG)
 
-<b>2. css</b>
+![](IO_Screenshots/2.JPG)
 
-<b>3. JavaScript</b>
+![](IO_Screenshots/2.JPG)
 
-<b>4. Materialize css</b>
+## Methodology
+![](Methodology.jpg)
 
-<b>5. Sklearn, pandas</b>
-
-<b>6. Flask</b>
-
-<b>7. AWS EC2</b>
-
-
-
+## Novelty
