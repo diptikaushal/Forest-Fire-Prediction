@@ -14,9 +14,10 @@ Python,Logistic Regression ,Flask, HTML, CSS, Heroku
 
 ![](IO_Screenshots/2.JPG)
 
-![](IO_Screenshots/2.JPG)
+![](IO_Screenshots/3.JPG)
 
 ## Methodology
 ![](Methodology.jpg)
 
 ## Novelty
+Compared performance of various models and selected Logistic Regression as the best model.
