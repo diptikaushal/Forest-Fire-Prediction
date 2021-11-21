@@ -20,4 +20,5 @@ Python,Logistic Regression ,Flask, HTML, CSS, Heroku
 ![](Methodology.jpg)
 
 ## Novelty
-Compared performance of various models and selected Logistic Regression as the best model.
+* Compared performance of various models and selected Logistic Regression as the best model.
+* Trained model based on temperature, oxygen and humidity content.
